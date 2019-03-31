@@ -9,7 +9,7 @@ interface IState {
     age:number;
 }
 
-
+// class Form extends Component <{},IState>//若是没有props则将该参数设为空 {}；                           
 class Form extends Component <IProps,IState>{
     state = {
         name:'zhhhh',
